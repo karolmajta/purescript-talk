@@ -1,10 +1,8 @@
-module Talk.Spec where
-
-import Test.Spec (describe, pending)
-import Test.Spec.Node
+module Talk.Dummymath where
 
 
-runtests = runNode do
-  describe "Dummymath" do
-    describe "quadruple" do
-      pending "We should implement a test for quadruple!"
+quadruple :: Number -> Number
+quadruple n = 4 * n
+
+even :: Number -> Boolean
+even n = (n % 2) == 0
