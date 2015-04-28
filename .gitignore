@@ -1,2 +1,4 @@
 .psci_modules/
 node_modules/
+purescript_modules/
+

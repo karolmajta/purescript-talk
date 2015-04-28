@@ -1,6 +1,6 @@
 module Talk where
 
 import Debug.Trace
+import Talk.Dummymath
 
-
-main = trace "Hello World"
+main = trace $ show $ quadruple 5
